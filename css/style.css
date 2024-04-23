@@ -1,0 +1,35 @@
+@font-face{
+    font-family: "PT Sans";
+    src: url(../fonts/PT-Sans/PT-Sans_Caption-Regular.woff);
+}
+body {
+    font-family: "PT Sans";
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1296px;
+    height: 110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header li{
+    display: inline-block;
+}
+header input[type=text]{
+    margin-top: 1px;
+    width: 194px;
+    height: 24px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #888888; 
+}
+header input[type=text]:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+header #languageSelect span{
+    color: blue;
+}
