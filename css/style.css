@@ -4,6 +4,7 @@
 }
 body {
     font-family: "PT Sans";
+    max-width: 1920px;
 }
 header{
     display: flex;
@@ -16,9 +17,12 @@ header{
 }
 header li{
     display: inline-block;
+    margin-left: 30px;
 }
 header input[type=text]{
-    margin-top: 1px;
+    position: relative;
+    top: -10px;
+    /*margin-top: 105px;*/
     width: 194px;
     height: 24px;
     border-top: none;
@@ -32,4 +36,109 @@ header input[type=text]:active, :hover, :focus {
 }
 header #languageSelect span{
     color: blue;
+    font-weight: 700;
 }
+
+/* »«Œ¡–¿∆≈Õ»≈ Õ¿ √À¿¬ÕŒ… —“–¿Õ»÷≈*/
+
+main #imgMain{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1920px;
+    height: 750px;
+    background-image: url("../img/imgMain.png");
+  /*  position: relative;*/
+    /*top: -750px;*/
+}
+main #imgMain #textImgMain{
+    width: 526px;
+    height: 336px;
+    color: white;
+}
+main #imgMain #textImgMain h1{
+    font-family: PT Sans;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: left;
+}
+main #imgMain #textImgMain #divPImgMain{
+    width: 402px;
+    height: 66px;
+
+
+}
+main #imgMain #textImgMain #divPImgMain p{
+    margin: 0px;
+    font-family: PT Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+}
+main #imgMain #textImgMain #divPImgMain h3{
+    font-family: PT Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.4px;
+    letter-spacing: 0.1em;
+    text-align: left;
+
+}
+#circleForArrow{
+    display: inline-block;
+    position: relative;
+    top: -2px;
+    width: 22px;
+    height: 22px;
+    padding-left: 1px;
+    border: 1px solid white;
+    border-radius: 50px;
+
+    font-family: PT Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.4px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: white;
+}
+
+main #cartImgMain{
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+}
+main #cartImgMain .cartBlueMain{
+    width: 306px;
+    height: 250px;
+    background-color: #5DB7DE;
+    border-radius: 15px;
+    margin: 12px;
+    color: white;
+}
+main #cartImgMain .cartBlueMain h4{
+    font-family: PT Sans;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18.2px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    margin-left: 35px;
+    padding-top: 30px;
+    
+
+}
+main #cartImgMain .cartBlueMain p{
+    font-family: PT Sans;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 26.6px;
+    text-align: left;
+    margin-left: 35px;
+    margin-top: 118px;
+
+
+}
+/* ŒÕ≈÷ »«Œ¡–¿∆≈Õ»≈ Õ¿ √À¿¬ÕŒ… —“–¿Õ»÷≈*/
