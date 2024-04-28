@@ -53,7 +53,7 @@ main #imgMain{
 }
 main #imgMain #textImgMain{
     width: 526px;
-    height: 336px;
+    height: 366px;
     color: white;
 }
 main #imgMain #textImgMain h1{
@@ -76,14 +76,16 @@ main #imgMain #textImgMain #divPImgMain p{
     font-weight: 400;
     line-height: 22.4px;
     text-align: left;
+    margin-top: 40px;
 }
-main #imgMain #textImgMain #divPImgMain h3{
+main #imgMain #textImgMain /*#divPImgMain*/ h3{
     font-family: PT Sans;
     font-size: 16px;
     font-weight: 700;
     line-height: 22.4px;
     letter-spacing: 0.1em;
     text-align: left;
+    padding-top: 60px;
 
 }
 #circleForArrow{
@@ -115,7 +117,9 @@ main #cartImgMain .cartBlueMain{
     height: 250px;
     background-color: #5DB7DE;
     border-radius: 15px;
-    margin: 12px;
+    margin-top: 0px;
+    margin-bottom: 12px;
+    margin-left: 12px;
     color: white;
 }
 main #cartImgMain .cartBlueMain h4{
@@ -126,7 +130,7 @@ main #cartImgMain .cartBlueMain h4{
     letter-spacing: 0.1em;
     text-align: left;
     margin-left: 35px;
-    padding-top: 30px;
+    padding-top: 10px;
     
 
 }
@@ -142,3 +146,110 @@ main #cartImgMain .cartBlueMain p{
 
 }
 /* ŒÕ≈÷ »«Œ¡–¿∆≈Õ»≈ Õ¿ √À¿¬ÕŒ… —“–¿Õ»÷≈*/
+
+
+/*—≈ ÷»ﬂ ”—À”√»*/
+main #divServices{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 1296px;
+    /*margin-top: 150px;*/
+    margin: 150px auto 0 auto;
+}
+main #divServices #serviceText{
+    width: 306px;
+}
+main #divServices #serviceText h1{
+
+}
+main #divServices .divTextPDF{
+    display: flex;
+    align-items: center;
+    width: 316px;
+    height: auto;
+    margin-top: 30px;
+}
+main #divServices .divTextPDF .textPDF{
+    width: 250px;
+    height: auto;   
+    font-family: "PT Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    text-decoration: underline dotted #3D348B;
+    color: #3D348B;
+
+}
+main #divServices .divTextPDF .divIconPDF{
+    width: 46px;
+    height: 34px;
+    border-radius: 10px;
+    background-color: #5DB7DE;
+    margin-left: 10px;
+    text-align: center;
+    color: white;
+  /*  padding-top: 5px;*/
+}
+main #divServices .divTextPDF .divIconPDF p{
+    font-family: PT Sans;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18.2px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    margin: 0px;
+    padding-top: 7px;
+}
+main #divServices #servicesCarts{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    width: 856px;
+    height: 717px;
+    margin-left: 134px;
+
+
+}
+main #divServices #servicesCarts .cartViolet{
+    width: 416px;
+    height: 223px;
+    background-color: #3D348B;
+    border-radius: 20px;
+/*    margin-bottom: 24px;
+    margin-left: 24px;*/
+    color: white;
+}
+main #divServices #servicesCarts .cartViolet h4{
+    font-family: PT Sans;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18.2px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    margin-left: 35px;
+    padding-top: 20px;
+
+}
+main #divServices #servicesCarts .cartViolet p{
+    font-family: PT Sans;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 26.6px;
+    text-align: left;
+    margin-left: 35px;
+    margin-top: 118px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ŒÕ≈÷ —≈ ÷»» ”—À”√»*/
