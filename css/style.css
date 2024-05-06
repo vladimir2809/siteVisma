@@ -578,3 +578,126 @@ footer>p{
 #divForContract ol li{
     margin-left: -24px;
 }
+/* 
+    КОНЕЦ КОНТЕНТНОЙ СТРАНИЦ
+*/
+
+/*
+
+    сТРАНИЦА С ФОРМОЙ
+
+*/
+#divForQuery{
+    width: 858px;
+    height: 1703px;
+    margin: 80px auto 0 auto;
+    /*text-align: center;*/
+}
+#divForQuery form{
+    width: 858px;
+    height: 1312px;
+}
+#divForQuery h1{
+    margin-bottom: 80px;
+    font-family: PT Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: center;
+
+}
+#divForQuery #divFormFlex1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 858px;
+    /*height: 1000px;*/
+}
+#divForQuery .divInput:not(#divAddInfoCargo){
+    width: 417px;
+    height: 73px;
+}
+#divForQuery label{
+    display: block;
+   /* padding-top: 30px;*/
+    margin-bottom: 20px;
+    font-family: PT Sans;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18.2px;
+    letter-spacing: 0.1em;
+    text-align: left;
+
+}
+#divForQuery input{
+    width: 416px;
+    height: 35px;
+    border: 1px solid #333333;
+    border-radius: 5px;
+    /*margin-bottom: 15px;*/
+}
+#divForQuery select{
+    width: 422px;
+    height: 35px;
+    border: 1px solid #333333;
+    border-radius: 5px;
+
+
+    appearance: none; /*-убираем стандартную стрелку*/
+    overflow: hidden;
+    background: url('../img/arrowSelect.png') no-repeat 97%/*right*/;/*  -вставляем нужную*/
+
+    padding-right: 50px;
+}
+#divAddInfoCargo{
+    width: 417px;
+    height: 300px; 
+}
+#divForQuery #addInfoCargo{
+    width: 422px;
+    height: 150px;
+}
+#divForQuery #divPleaseInform label{
+/*    margin-top: -10px;*/
+}
+#divFeedbackInfo{
+    /*display: flex;*/
+    width: 865px;
+    height: 300px;
+    padding-top: 60px;
+}
+#divFeedbackInfo h2{
+    margin-bottom: 40px;
+}
+#divFormFlex2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 20px;
+    width: 858px;
+    height: 200px;
+}
+#divFeedbackInfo input{
+    width: 416px;
+    height: 35px;
+    border: 1px solid #333333;
+    border-radius: 5px;
+    /*margin-bottom: 15px;*/
+}
+#divFeedbackInfo label{
+    display: block;
+    height: 25px;
+   /* padding-top: 30px;*/
+    margin-bottom: 20px;
+    font-family: PT Sans;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18.2px;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
+#submit{
+    display: block;
+    text-align: center;
+    margin: 30px auto 0px auto;
+}

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styleBtnFile.css">
+    <link rel="stylesheet" href="css/styleCheckbox.css">
+    <title>Visma FORM</title>
+</head>
+<body>
+    <header>
+        <img src="img/logo.png">
+        <ul>
+            <li>О компании</li>
+            <li>Новости</li>
+            <li>Новости</li>
+            <li>Новости</li>
+            <li>Новости</li>
+            <li>Новости</li>
+            <li>Новости</li>
+        </ul>
+        <form>
+            <div>
+                <!--<span>--> <!--for="textSearch"--> <img src="img/round-search.png"><!--</span>-->
+                <input type="text" id="textSearch">
+            </div>
+        </form>
+        <div id="languageSelect">
+            RU <span>&#709;</span>
+        </div>
+    </header>
+    <div id="divRouteNavigator">
+        <div>
+            <p>
+                ГЛАВНАЯ <span> &#9658;</span> КЛИЕНТАМ  <span> &#9658;</span>
+                ЗАПРОС СТАВКИ И УСЛОВИЙ ПОГРУЗОЧНО-РАЗГРУЗОЧНЫХ РАБОТ
+            </p>
+        </div>
+    </div>
+    <div id="divForQuery">
+        <h1>Запрос ставки и условий погрузочно-разгрузочных работ</h1>
+        <form id="formQuery">
+            <div id="divFormFlex1">
+                <div class="divInput">
+                    <label for="nameCargo">НАИМЕНОВАНИЕ ГРУЗА<sup>*</sup></label>
+                    <input type="text" id="nameCargo">
+                </div>
+
+                <div class="divInput">
+                    <label for="sizeCargo">РАЗМЕР ПАРТИИ<sup>*</sup></label>
+                    <input type="text" id="sizeCargo">
+                </div>
+
+                <div class="divInput">
+                    <label for="unitMeasure">ЕД. ИЗМЕРЕНИЯ<sup>*</sup></label>
+                    <select id="unitMeasure">
+                        <option value=""></option>
+                    </select>
+                </div>
+
+                <div class="divInput">
+                    <label for="direction">НАПРАВЛЕНИЕ ПЕРЕВОЗКИ<sup>*</sup></label>
+                    <select id="direction">
+                        <option value=""></option>
+                    </select>
+                </div>
+
+                <div class="divInput">
+                    <label for="itemAim">ПУНКТ НАЗНАЧЕНИЯ ПЕРЕВОЗКИ</label>
+                    <input type="text" id="itemAim">
+                </div>
+
+                <div class="divInput">
+                    <label for="periodAdmission">ПЕРИОД ПОСТУПЛЕНИЕ ГРУЗА К ПЕРЕВАЛКЕ</label>
+                    <select id="periodAdmission">
+                        <option value=""></option>
+                    </select>
+                </div>
+
+                <div class="divInput">
+                    <label for="cargoArrives">ГРУЗ ПОСТУПАЕТ В ПОРТ</label>
+                    <select id="cargoArrives">
+                        <option value=""></option>
+                    </select>
+                </div>
+
+                <div class="divInput">
+                    <label for="cargoHeadingOff">ГРУЗ ОТПРАВЛЯЕТСЯ ИЗ ПОРТА</label>
+                    <select id="cargoHeadingOff">
+                        <option value=""></option>
+                    </select>
+                </div>
+
+                <div class="divInput">
+                    <label for="sizeCargoParties">РАЗМЕР СУДОВОЙ ПАРТИИ</label>
+                    <input type="text" id="sizeCargoParties">
+                </div>
+
+                <div class="divInput">
+                    <label for="dangerCargo">ОПАСНОСТЬ ГРУЗА (КЛАСС)</label>
+                    <input type="text" id="dangerCargo">
+                </div>
+
+                <div class="divInput" id="divAddInfoCargo">
+                    <label for="addInfoCargo">ДОПОЛНИТЕЛЬНАЯ ИНФОРМАЦИЯ О ГРУЗЕ:</label>
+                    <input type="text" id="addInfoCargo">
+                </div>
+
+                <div class="divInput">
+                    <label for="file">ПРИКРЕПИТЬ ФАЙЛ</label>
+                    <!--<input type="file" id="file">-->
+                    <label class="input-file">
+                        <input type="file" name="file">
+                        <span class="input-file-btn">ВЫБЕРИТЕ ФАЙЛ</span>
+                        <span class="input-file-text">фАЙЛ НЕ ВЫБРАН</span>
+                    </label>
+                </div>
+
+            </div>
+            <div id="divPleaseInform">
+                <h2>Просим сообщить:</h2>
+                <!--<input type="checkbox" id="checkbox1">-->
+                <input type="checkbox" class="custom-checkbox" id="checbox1">
+                <label for="checbox1">СТАВКУ ПРР</label>
+
+                <input type="checkbox" class="custom-checkbox" id="checbox2">
+                <label for="checbox2">СРОК ТЕХНОЛОГИЧЕСКОГО НАКОПЛЕНИЯ ГРУЗА</label>
+
+                <input type="checkbox" class="custom-checkbox" id="checbox3">
+                <label for="checbox3">СТАВКУ ХРАНЕНИЯ ГРУЗА СВЕРХ СРОКА ТЕХНОЛОГИЧЕСКОГО НАКОПЛЕНИЯ</label>
+
+                <input type="checkbox" class="custom-checkbox" id="checbox4">
+                <label for="checbox4">ВОЗМОЖНОСТЬ ПРИЕМА И ПЕРЕВАЛКИ ГРУЗА В УКАЗАННЫЙ СРОК</label>
+                <!--<span>СТАВКУ ПРР</span>-->
+            </div>
+            <div id="divFeedbackInfo">
+                <h2>Информация для обратной связи</h2>
+                <div id="divFormFlex2">
+                    <div class="divInput">
+                        <label for="nameSurname">ИМЯ, ФАМИЛИЯ</label>
+                        <input type="text" id="nameSurname">
+                    </div>
+
+                    <div class="divInput">
+                        <label for="nameCompany">НАИМЕНОВАНИЕ КОМПАНИИ<sup>*</sup></label>
+                        <input type="text" id="nameCompany">
+                    </div>
+
+                    <div class="divInput">
+                        <label for="telephone">НОМЕР ТЕЛЕФОНА/ФАКСА</label>
+                        <input type="text" id="telephone">
+                    </div>
+
+                    <div class="divInput">
+                        <label for="email">АДРЕС ЭЛ.ПОЧТЫ<sup>*</sup></label>
+                        <input type="text" id="email">
+                    </div>
+                </div>
+            </div>
+            <input type="submit" id="submit">
+        </form>
+    </div>
+    <footer>
+        <div id="divWhite">
+        </div>
+        <div id="divContact">
+            <div id="divPropsContact">
+                <div class="propsContact">
+                    <img src="img/pointGis.svg">
+                    <span>123456, г. Тавима, ул. Морская, д. 21</span>
+                </div>
+                <div class="propsContact" id="logoFooter">
+                    <img src="img/logo.svg">
+                </div>
+                <div id="propsLast">
+                    <div class="propsContact">
+                        <img src="img/telephone.svg">
+                        <span>+7 (123) 456-67-89</span>
+                    </div>
+                    <div class="propsContact">
+                        <img src="img/convert.svg">
+                        <span>order@visma.ru</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="divListLink">
+            <div id="listLinkContener">
+                <div class="divListOne">
+                    <h3><!--информация о юр. лице-->ИНФОРМАЦИЯ 0 ЮР. ЛИЦЕ</h3>
+                    <ul>
+                        <li>ОГРН 11111111111111111</li>
+                        <li>ИНН 2222222222222</li>
+                        <li>КПП 3333333333333</li>
+                        <li>ОКПО 44444444444 ОКВЭД 52.24</li>
+                        <li>ОКТМО 5555555555555</li>
+
+
+                    </ul>
+                </div>
+
+                <div class="divListOne">
+                    <h3><!--Закупки-->ЗАКУПКИ</h3>
+                    <ul>
+                        <li>Нормативные документы</li>
+                        <li>Закупки на VISMA Order</li>
+                        <li>КПП 3333333333333</li>
+                        <li>Закупки на VISMA Tender</li>
+                        <!--<li>ОКТМО 5555555555555</li>-->
+
+
+                    </ul>
+                </div>
+
+                <div class="divListOne">
+                    <h3><!--акционерам-->АКЦИОНЕРАМ</h3>
+                    <ul>
+                        <li>Устав VISMA</li>
+                        <li>Свидетельства госрегистрации</li>
+                        <li>Список аффилированных лиц</li>
+                        <li>Информация</li>
+                        <li>Отчеты</li>
+
+
+                    </ul>
+                </div>
+
+                <div class="divListOne">
+                    <h3><!--о компании-->О КОМПАНИИ</h3>
+                    <ul>
+                        <li>Порт сегодня</li>
+                        <li>Характеристики порта</li>
+                        <li>История</li>
+                        <li>Дипломы и награды</li>
+                        <li>Транспортная безопасность</li>
+                        <li>Экология</li>
+                        <li>Правовая информация</li>
+
+
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <p>
+            ВСЕ ПРАВА ЗАШИЩЕНЫ АО VISMA
+        </p>
+    </footer>
+</body>
+</html>
