@@ -696,8 +696,36 @@ footer>p{
     letter-spacing: 0.1em;
     text-align: left;
 }
-#submit{
+button{
     display: block;
+
+    border: none;
+    background-color: white;
+    font-family: PT Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.4px;
+    letter-spacing: 0.1em;
     text-align: center;
-    margin: 30px auto 0px auto;
+    color:#3D348B;
+     
+    margin: 60px auto 0px auto;
+}
+#circleForArrowButton{
+    display: inline-block;
+    position: relative;
+    top: -2px;
+    width: 22px;
+    height: 22px;
+    padding-left: 1px;
+    border: 1px solid #3D348B;
+    border-radius: 50px;
+
+    font-family: PT Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.4px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #3D348B;
 }
